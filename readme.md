@@ -6,9 +6,13 @@ the "standard library" as possible.
 The main difference to other internationalization plugins is the ease of use
 and support for locales directly with the application or later from the server.
 
+This fork adds an adapter interface and Vue-stash support and changed from
+es6 modules to commonjs format.
+
 ## Requirements
 - Vue ^2.0.0
-- Vuex ^2.0.0
+- Vuex ^2.0.0 or vue-stash ^v2.0.1-beta
+
 
 ## Installation
 ```

@@ -1,14 +1,13 @@
 {
-  "name": "vuex-i18n",
-  "version": "1.4.1",
+  "name": "vuex-i18n-stash",
+  "version": "1.0.0",
   "description": "Easy localization for vue-components using vuex as data store",
   "directories": {
     "test": "test"
   },
-  "main": "dist/vuex-i18n.min.js",
+  "main": "src/index.js",
   "files": [
-    "dist",
-    "test"
+    "src/*.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -46,12 +45,5 @@
     "url": "https://github.com/dkfbasel/vuex-i18n/issues"
   },
   "homepage": "https://github.com/dkfbasel/vuex-i18n#readme",
-  "devDependencies": {
-    "babel-plugin-external-helpers": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-es2015-rollup": "^1.2.0",
-    "rollup-plugin-babel": "^2.6.1",
-    "rollup-plugin-commonjs": "^5.0.5",
-    "rollup-plugin-uglify": "^1.0.1"
-  }
+  "devDependencies": {}
 }
