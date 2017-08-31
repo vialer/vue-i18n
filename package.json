@@ -1,7 +1,7 @@
 {
-  "name": "vuex-i18n-stash",
+  "name": "vue-i18n-stash",
   "version": "1.0.0",
-  "description": "Easy localization for vue-components using vuex as data store",
+  "description": "Easy localization for vue-components using vue-stash as data store",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkfbasel/vuex-i18n.git"
+    "url": "git+https://github.com/jvanveen/vue-i18n-stash.git"
   },
   "keywords": [
     "localization",
@@ -24,26 +24,14 @@
     "i18n"
   ],
   "author": {
-    "name": "Ramon Saccilotto",
-    "email": "tikiatua@gmail.com",
-    "url": "https://github.com/tikiatua"
+    "name": "Jeroen van Veen",
+    "email": "j.veenvan@gmail.com",
+    "url": "https://github.com/jvanveen"
   },
-  "contributors": [
-    {
-      "name": "Vu Duong",
-      "email": "info@spotlit.de",
-      "url": "https://github.com/vuduo"
-    },
-    {
-      "name": "ktquez",
-      "email": "ktquez@gmail.com",
-      "url": "https://github.com/ktquez"
-    }
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dkfbasel/vuex-i18n/issues"
+    "url": "https://github.com/jvanveen/vue-i18n-stash/issues"
   },
-  "homepage": "https://github.com/dkfbasel/vuex-i18n#readme",
+  "homepage": "https://github.com/jvanveen/vue-i18n-stash#readme",
   "devDependencies": {}
 }
