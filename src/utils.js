@@ -28,7 +28,7 @@ const flattenTranslations = function flattenTranslations(translations) {
 
 			toReturn[i] = translations[i]
 
-		} else if (objType == 'object' && objType !== null) {
+		} else if (objType === 'object' && objType !== null) {
 			let flatObject = flattenTranslations(translations[i])
 			for (let x in flatObject) {
 				if (!flatObject.hasOwnProperty(x)) continue

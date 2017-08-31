@@ -4,11 +4,11 @@
 // closure to avoid recompilation of the regular expression to match tags on
 // every render cycle.
 let renderFn = function(identifiers) {
-	if (identifiers == null || identifiers.length != 2) {
+	if (identifiers === null || identifiers.length !== 2) {
 		console.warn('You must specify the start and end character identifying variable substitutions');
 	}
 
-	// Construct a regular expression ot find variable substitutions, i.e. {test}.
+	// Construct regular expression ot find variable substitutions, i.e. {test}.
 	let matcher = new RegExp('' + identifiers[0] + '\\w+' + identifiers[1], 'g');
 
 	// Define the replacement function.
