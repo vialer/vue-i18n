@@ -21,7 +21,7 @@ const flattenTranslations = function flattenTranslations(translations) {
 			for (let index = 0; index < count; index++) {
 				let itemType = typeof translations[i][index]
 				if (itemType !== 'string') {
-					console.warn('vuex-i18n:', 'currently only arrays of strings are fully supported', translations[i])
+					console.warn('vue-i18n:', 'currently only arrays of strings are fully supported', translations[i])
 					break
 				}
 			}

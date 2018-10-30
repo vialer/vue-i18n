@@ -101,11 +101,11 @@ let renderFn = function(identifiers) {
 
 
 // initialize the plugin object
-let VuexI18nPlugin = {};
+let VueI18nPlugin = {};
 
 // Internationalization plugin for vue js using an adapter interface to
 // several stores; e.g. vuex & vue-stash.
-VuexI18nPlugin.install = function install(Vue, store, identifiers = ['{', '}']) {
+VueI18nPlugin.install = function install(Vue, store, identifiers = ['{', '}']) {
     store.init(Vue)
 
     // Initialize the replacement function.
@@ -242,4 +242,4 @@ VuexI18nPlugin.install = function install(Vue, store, identifiers = ['{', '}']) 
 	Vue.filter('translate', translate)
 }
 
-module.exports = VuexI18nPlugin
+module.exports = VueI18nPlugin

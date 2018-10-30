@@ -22,7 +22,7 @@ class I18nStore {
         }
 
         Vue.prototype.$setLanguage = function() {
-            console.error('i18n vuex module is not correctly initialized')
+            console.error('vue-i18n module is not correctly initialized')
         }
     }
 }
